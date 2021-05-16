@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+    padding: 20px 35px;
+    background-color: #191A1B;
+}
+
+header h1{
+    width: 65px;
+    height: 30px;
+    background-image: url(../assets/images/logo-david\(trnsprnt\).png);
+    background-size: cover;
+}
+
+header h2 {
+    line-height: 3;
+    display: inline;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: #E8804C;
+}
+
+header nav{
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a{
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+footer{
+    background-color: #191A1B;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2{
+    display: inline;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div{
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+.social-media a{
+    color: white;
+    font-size: 35px;
+    margin: 0 10px;
+    transition: .2s linear;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #E8804C;
+}
+
+section{
+    padding: 60px;
+}
+
+/* hero style start*/
+.hero{
+    height: 600px;
+    background-image: url(./images/hero-card.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-form{
+    background-color: rgb(0,74,173);
+    color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: px;
+}
+
+.hero-form2{
+    background-color: rgb(0,74,173);
+    color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 250px;
+}
+
+.hero-form h3{
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p{
+    margin: 5px 0 15px 0;
+}
+
+.form-input{
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label{
+    margin: 0 5px;
+}
+
+.hero-form button{
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* hero style end*/
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-right: 35px;
+    padding-right: 10px;
+    display: inline-block;
+    border-right: 4px solid;
+    float: left;
+    text-align: right;
+}
+
+.about-me {
+    background-color: #024E76;
+}
+
+.about-me h3 {
+    color: white;
+}
+
+.para-text {
+    color: #191A1B;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#images{
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-img {
+    width: 60%;
+    float: left;
+    margin: 1% 1%;
+    padding: 0px;
+}
+
+.secondary-img {
+    width: 30%;
+    float: left;
+    margin: 1% 1%;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+  
+.primary-border {
+    border-color: #fce138;
+}
+  
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+.steps div{
+    margin-bottom: 80px;
+}
+
+.steps img{
+    width: 15%;
+    margin: 10px 0;
+}
+
+/* Reach out style start */
+.contact{
+    text-align: center;
+    background: #024e76;
+}
+
+.contact h2{
+    color: white;
+}
+
+.contact-info div{
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
+.contact-info h3{
+    color: white;
+    font-size: 32px;
+}
+
+.contact-info p, .contact-info address{
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact-info a{
+    color: #E8804C;
+}
+
+.profile img{
+    border-radius: 50px;
+}
+/* Reach out style end */
