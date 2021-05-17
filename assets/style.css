@@ -8,20 +8,17 @@ body{
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* Nav Style end */
 header{
     padding: 20px 35px;
     background-color: #191A1B;
 }
 
-header h1{
-    width: 65px;
-    height: 30px;
-    background-image: url(../assets/images/logo-david\(trnsprnt\).png);
-    background-size: cover;
-}
-
-header h2 {
-    line-height: 3;
+header h1 {
+    font-weight: bold;
+    color: white;
+    font: 36px;
+    margin: 0;
     display: inline;
 }
 
@@ -48,7 +45,9 @@ header nav ul li a{
     font-weight: lighter;
     font-size: 22px;
 }
+/* Nav Style Start */
 
+/* footer start */
 footer{
     background-color: #191A1B;
     width: 100%;
@@ -83,6 +82,7 @@ footer div{
 section{
     padding: 60px;
 }
+/* footer end */
 
 /* hero style start*/
 .hero{
@@ -113,29 +113,6 @@ section{
     bottom: 250px;
 }
 
-.hero-form h3{
-    font-size: 24px;
-    margin: 0;
-}
-
-.hero-form p{
-    margin: 5px 0 15px 0;
-}
-
-.form-input{
-    border: 1px solid #024e76;
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: #024e76;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-.hero-form label{
-    margin: 0 5px;
-}
-
 .hero-form button{
     color: #fce138;
     background-color: #024e76;
@@ -149,15 +126,17 @@ section{
     font-size: 55px;
     color: #024e76;
     margin-right: 35px;
-    padding-right: 10px;
+    padding-right: 25px;
     display: inline-block;
     border-right: 4px solid;
     float: left;
     text-align: right;
 }
 
+/* about me section */
 .about-me {
     background-color: #024E76;
+    display: flex;
 }
 
 .about-me h3 {
@@ -166,8 +145,23 @@ section{
 
 .para-text {
     color: #191A1B;
-    font-size: 18px;
+    font-size: 30px;
     line-height: 1.5;
+}
+
+.about-me .para-text {
+    color: white;
+}
+/* about me section end */
+
+/* Work Section Start*/
+.work h3{
+    font-size: 55px;
+    color: #024e76;
+    text-align: center;
+    border-bottom: 4px solid;
+    padding-bottom: 10px;
+    margin-bottom: 35px;
 }
 
 #images{
@@ -179,11 +173,11 @@ section{
     width: 60%;
     float: left;
     margin: 1% 1%;
-    padding: 0px;
+    margin-left: 7%;
 }
 
 .secondary-img {
-    width: 30%;
+    width: 21.8%;
     float: left;
     margin: 1% 1%;
     padding: 0px;
@@ -195,28 +189,14 @@ img {
     padding: 0px;
     margin: 0px;
 }
-  
-.primary-border {
-    border-color: #fce138;
-}
-  
-.secondary-border {
-    border-color: #39a6b2;
-}
 
-.steps div{
-    margin-bottom: 80px;
-}
+/* Work Section end */
 
-.steps img{
-    width: 15%;
-    margin: 10px 0;
-}
-
-/* Reach out style start */
+/* Contact style start */
 .contact{
     text-align: center;
     background: #024e76;
+    display: flex;
 }
 
 .contact h2{
@@ -251,4 +231,33 @@ img {
 .profile img{
     border-radius: 50px;
 }
-/* Reach out style end */
+/* Contact style end */
+
+/* mobile responsive */
+@media screen and (max-width: 768px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+    
+}
