@@ -194,7 +194,6 @@ img {
 
 /* Contact style start */
 .contact{
-    text-align: center;
     background: #024e76;
     display: flex;
 }
@@ -236,8 +235,12 @@ img {
 /* mobile responsive */
 @media screen and (max-width: 768px) {
     header {
-        padding-bottom: 0;
+        float: none;
+        display: block;
         justify-content: center;
+        width: 100%;
+        max-width: none;
+
     }
 
     header h1 {
@@ -245,19 +248,43 @@ img {
         text-align: center;
     }
 
-    header nav ul {
+    header nav ul li a {
+        font-size: 20px;
         margin-top: 20px;
         width: 100%;
         justify-content: center;
     }
 
-    header nav ul li a {
-        font-size: 20px;
+    .contact .section-title{
+        width: 85%;
+        text-align:center;
+        border-right: none;
+        position: absolute;
     }
 
+    .contact .profile {
+        width: 50%;
+        justify-content: center;
+        margin-left: 23%;
+        margin-top: 100px;
+    }
 
-}
+    .contact h3 {
+        text-align: center;
+        margin-left: 80px;
+    }
 
-@media screen and (max-width: 320px) {
+    .contact p {
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        margin-left: 50px;
+    }
     
+    .contact address {
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        margin-left: 50px;
+    }
 }
